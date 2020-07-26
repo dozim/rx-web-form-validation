@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/node_modules/rxjs/**": true,
+        "/home/dozi/IdeaProjects/rx-web-demo/node_modules/**": true
+    }
+}
