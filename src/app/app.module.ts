@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RxReactiveFormsModule, ReactiveFormConfig } from '@rxweb/reactive-form-validators';
 import { AppComponent } from './app.component';
-import { Person } from './person';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { Person } from './person';
     RxReactiveFormsModule
   ],
   exports: [
-    Person
   ],
   providers: [],
   bootstrap: [AppComponent]
