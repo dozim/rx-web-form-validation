@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { RxFormBuilder, RxFormGroup, IFormGroup } from '@rxweb/reactive-form-validators';
-import { Person } from 'src/app/person';
+import { Person } from './person';
 
 
 @Component({
